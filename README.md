@@ -39,7 +39,9 @@ Clean coding practices should be followed.
 
 ## Undertaken Method
 
+![image](https://github.com/Akashmahour/CollegeNotificationSystem/assets/61516623/3dfeff49-06a5-4841-be51-3ea78a32bdd0)
 Figure 1
+                                                    
 We create a centralised User table which handles the login credentials as per the role of the user. The user role can be of four types namely the admin, manager, teacher, student. The admin and manager user are pre registered in the db.
 
 The user has the ability to manage teachers, whereas a manager can manage students, hence the two users can create entries in the user table by adding credentials for teacher and student table along with it respectively.
@@ -54,7 +56,10 @@ Also it will enable us to retrieve the ids of the students through which we can 
 
 User access and Database control:
 
+
+![image](https://github.com/Akashmahour/CollegeNotificationSystem/assets/61516623/95adacd6-899d-44c3-b8a4-f4b9cb0f7c8a)
 Figure 2
+
 For the Database we will use Sqlite or PostgreSQL.
 
 According to the requirements there are 4 types of users namely the Admin, Manager, Teachers and Students.
