@@ -30,8 +30,6 @@ last name
 
 Teacher_uuids (list of teachers they want to get notifications from. This is the uuid of the teacher from the previous endpoint)
 
-Integrate Google Authentication (OAuth). You can use the SDK available for each platform.
-
 Role based access control (Authorisation)
 
 Only users with role admin can manage teachers.
